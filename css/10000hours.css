@@ -66,7 +66,7 @@ h1 .img_title {
     width: 564px;
     top: 120px;
 }
-@media (max-width: 600px) {
+@media (max-width: 705px) {
     h1 .img_clock{
         width: 20vh;
         height: 20vh;
@@ -85,7 +85,7 @@ h1 .img_title {
     margin-bottom: 50px;
     display: flex;
 }
-@media (max-width: 600px) {
+@media (max-width: 705px) {
     .intro_saying{
         font-size: 1.5em;
         align-items: center;
@@ -102,7 +102,7 @@ h1 .img_title {
 .quotes {
     position: absolute;
 }
-@media (max-width: 600px) {
+@media (max-width: 705px) {
     .quotes{
         width: 90%;
     }
@@ -118,7 +118,7 @@ h1 .img_title {
     font-family: 'GmarketSansMedium';
     font-weight: 700;
 }
-@media (max-width: 600px) {
+@media (max-width: 705px) {
     .explain, .explain strong{
         font-size: 99%;
     }
@@ -150,7 +150,7 @@ h1 .img_title {
     font-size: 24px;
     font-family: 'GmarketSansMedium';
 }
-@media (max-width: 600px) {
+@media (max-width: 705px) {
     .inputs{
         width: 95%;
         font-size: 1.2em;
@@ -183,13 +183,13 @@ h1 .img_title {
     display: flex;
     transform: translateX(315px) translateY(15px);
 }
-@media (max-width: 600px) {
+@media (max-width: 705px) {
     .click-text{
         font-size: 1em;
         padding: 1em;
     }
     .start img{
-        transform: translateX(35vw) translateY(6vh);
+        transform: translateX(20vh) translateY(6vh);
     }
 }
 
@@ -237,7 +237,7 @@ h1 .img_title {
 .btngo:last-child{
     background-color: white;
 }
-@media (max-width: 600px) {
+@media (max-width: 705px) {
     .result_loading{
         font-size: 1em;
     }
@@ -303,7 +303,7 @@ h1 .img_title {
     margin-bottom: 20px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 705px){
     .sticker{
         width: 90vw;
         height: 90vw;
@@ -337,5 +337,10 @@ footer {
     font-family: 'Noto Sans KR';
     font-size: 12px;
     font-weight: 400;
-    margin-bottom: 10vh;
+}
+@media (max-width: 705px){
+    footer{
+        font-size: 0.7em;
+        
+    }
 }
