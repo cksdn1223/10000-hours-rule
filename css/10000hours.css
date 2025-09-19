@@ -157,8 +157,9 @@ h1 .img_title {
         text-align: center;
     }
     .inputs input{
-        width: 30%;
+        width: 32%;
         font-size: 0.9em;
+        margin-bottom: 0.5em;
     }
 }
 .start {
@@ -341,6 +342,5 @@ footer {
 @media (max-width: 705px){
     footer{
         font-size: 0.7em;
-        
     }
 }
