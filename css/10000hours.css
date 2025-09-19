@@ -189,8 +189,7 @@ h1 .img_title {
         padding: 1em;
     }
     .start img{
-        bottom: 10vh;
-        left: -10vw;
+        transform: translateX(35vw) translateY(6vh);
     }
 }
 
